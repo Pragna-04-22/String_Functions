@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>String Functions</title>
+    <link rel="stylesheet" href="String.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title"></h1>
+      <p class="subtitle"></p>
+
+      <form id="stringForm" class="panel">
+        <div class="row">
+          <input id="source" class="input" placeholder="Enter a string ..."/>
+          <button type="submit" class="btn" title="Analyze (Enter)">
+            Enter
+          </button>
+        </div>
+
+        <section class="grid" style="margin-top: 18px">
+          <div class="card">
+            <div class="label">Length</div>
+            <div id="length" class="value"></div>
+          </div>
+
+          <div class="card">
+            <div class="label">Uppercase</div>
+            <div id="upper" class="value"></div>
+          </div>
+
+          <div class="card">
+            <div class="label">Lowercase</div>
+            <div id="lower" class="value"></div>
+          </div>
+
+          <div class="card">
+            <div class="label">Middle character</div>
+            <div id="middle" class="value"></div>
+          </div>
+
+          <div class="card">
+            <div class="label">Total words</div>
+            <div id="words" class="value"></div>
+          </div>
+
+          <div class="card">
+            <div class="label">Vowels count</div>
+            <div id="vowels" class="value"></div>
+          </div>
+
+          <div class="card">
+            <div class="label">Consonants</div>
+            <div id="consonants" class="value"></div>
+          </div>
+
+          <div class="card">
+            <div class="label">camelCase</div>
+            <div id="camel" class="value"></div>
+          </div>
+
+        </section>
+      </form>
+    </main>
+
+    <script src="String.js"></script>
+  </body>
+</html>
